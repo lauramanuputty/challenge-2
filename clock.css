@@ -1,0 +1,136 @@
+/*Mobile first*/ 
+/*width: 375*/ 
+*{
+	font-family:tahoma;
+	color:white;
+}
+
+body{
+	animation: change 100s infinite;
+}
+
+@keyframes change{
+	0%{background-color: #80B0E8;}
+	25%{background-color: #78A3D6;}
+	50%{background-color: #5D82AE;}
+	75%{background-color: #47607E;}
+	100%{background-color: #09203A;}
+}
+
+h2{
+	text-align:center; 
+	border-top: 2px solid white;
+	padding-top:20px; 
+}
+	
+/*Header: Logo bovenaan de pagina*/
+.logowit>img{
+	width:317px;
+	height: 40px;
+	margin-left: 18;
+	margin-bottom: 30px;
+}
+
+/*Section-een: Klok een...*/
+
+/*Section-twee: Reis een visuele weergave van de reis van Aarde naar Mars*/
+.mars>img, .aarde>img{
+	width: 72px;
+	height: 72px;
+}
+
+.raket>img{
+	width: 40px;
+	height: 40px;
+	margin-left: 45px;
+}
+
+.mars>img{
+	float:left; 
+	clear:left;
+}
+
+
+.aarde>img{
+	float: right; 
+	clear:right;
+	margin-top:-55px;
+	margin-bottom:50px;
+}
+
+/*Section-drie: Standaard-uren een weergave van de tijden wanneer de reizigers naar bed moeten gaan of wakker moeten worden*/
+
+.standaard-uren>h2{
+	clear:both;
+	margin-bottom:-5px;
+}
+
+.standaard-wakkertijd, .standaard-bedtijd{
+	display:block;
+	width: 123px;
+	height: 62px;
+	font-size: 25px;
+	text-align:center;
+	padding-top:24px;
+	/*float:left;
+	clear:left;
+	margin-left:39px;*/
+}
+
+.wakkertijd-informatie, .bedtijd-informatie{
+	display:block;
+	width: 157px;
+	height: 66px;
+	font-size: 18px;
+	text-align:center;
+	/*float:right;
+	clear:right;
+	margin-right:39px;*/
+}
+
+.standaard-wakkertijd {
+	background-color:#E9C764;
+	float:left; 
+	clear:left;
+	margin-left:40px;
+}
+
+.wakkertijd-informatie{
+	background-color:#FFD868;
+	float:right;
+	clear:rigth;
+	margin-right:39px;
+	padding-top:21px;
+}
+
+.standaard-bedtijd{
+	background-color:#D86565;
+	float:left; 
+	clear:left;
+	margin-left:40px;
+	margin-top:-5px;
+}
+
+.bedtijd-informatie{
+	background-color:#FF7777;
+	float:right;
+	clear:rigth;
+	height: 55px;
+	margin-right:39px;
+	margin-top:-5px;
+	padding-top:31px;
+}
+
+/*Ipad*/ 
+/*@media only screen and (min-width: 768px){}*/
+
+
+
+
+/*Laptop*/ 
+/*@media only screen and (min-width: 1024px){}*/
+
+
+
+/*Desktop*/ 
+/*@media only screen and (min-width: 1440px){}*/
