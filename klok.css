@@ -39,6 +39,10 @@ h2{
 
 	
 /*Section-een: Digitale klok met de uren en minuten in 2 aparte gele boxen en een rode box voor de seconden*/
+.aarde-tijd{
+	border-top: 2px solid white;
+}
+
 .aarde-tijd > h2{
 	margin-bottom:30px;
 	border-top:none;
@@ -107,20 +111,21 @@ h2{
 }
 
 @keyframes beweging {
-	  0%   {left: 100px; top: 0px;}
-	  25%  {left: -100px; top: 0px;}
-	  50%  {left: 100px; top: 0px;}
-	  75%  {left: -100px; top: 0px;}
-	  100% {left: 100px; top: 0px;}
+	  0%   {left: 100px;}
+	  25%  {left: -100px;}
+	  50%  {left: 100px;}
+	  75%  {left: -100px;}
+	  100% {left: 100px;}
 	}
 
+	
 /*Section-drie: Standaard-uren een weergave van de tijden wanneer de reizigers naar bed moeten gaan of wakker moeten worden*/
 	/*De codes die apart staan tussen de sterren zijn codes die ik eerst had toegepast om elementen een bepaalde plek te geven op de pagina,
 	  maar dat heb ik verandert door in de plaats van float en de margin aan te passen, display te gebruiken.*/
-.standaard-uren>h2{
-	/*clear:both;
-	margin-bottom:-5px;*/
-}
+/*.standaard-uren>h2{
+	clear:both;
+	margin-bottom:-5px;
+}*/
 
 .standaard-tijden{
 	display: flex;
@@ -152,12 +157,12 @@ h2{
 	margin-right:39px;*/
 }
 
-.standaard-wakkertijd {
-	/*background-color:#E9C764;
+/*.standaard-wakkertijd {
+	background-color:#E9C764;
 	float:left; 
 	clear:left;
-	margin-left:40px;*/
-}
+	margin-left:40px;
+}*/
 
 .wakkertijd-informatie{
 	padding-top:21px;
@@ -167,13 +172,13 @@ h2{
 	margin-right:39px;*/
 }
 
-.standaard-bedtijd{
+/*.standaard-bedtijd{
 	/*background-color:#D86565;
 	float:left; 
 	clear:left;
 	margin-left:40px;
-	margin-top:-5px;*/
-}
+	margin-top:-5px;
+}*/
 
 .bedtijd-informatie{
 	height: 55px;
@@ -199,12 +204,12 @@ h2{
 	}
 
 	.klokdata-wrapper{
-		width: 285px;
+		width: 300px;
 		height: 98px;
 	}
 
 	.klok-tijd{	
-		width: 275px;
+		width: 300px;
 		height: 35px;
 	}
 
@@ -253,7 +258,7 @@ h2{
 /*Laptop css*/ 
 @media only screen and (min-width: 1024px){
 	h2{
-		font-size:40px;
+		font-size:35px;
 	}
 	
 	.logo-wit>img{
@@ -261,13 +266,21 @@ h2{
 		height: 40px;
 	}
 	
+	.aarde-tijd{
+		margin-bottom: 40px;
+	}
+	
+	.aarde-tijd > h2{
+		margin-top: 50px;
+	}
+	
 	.klokdata-wrapper{
-		width: 355px;
+		width: 380px;
 		height: 130px;
 	}
 
 	.klok-tijd{	
-		width: 355px;
+		width: 380px;
 		height: 55px;
 	}
 
@@ -279,8 +292,10 @@ h2{
 		font-size: 60px;
 	}
 	
-	.mars{
-		margin-right: 50px;
+	.reis{
+		float: right;
+		clear:right;
+		margin-right:50px;
 	}
 	
 	.mars>img, .aarde>img{
@@ -293,12 +308,10 @@ h2{
 		height: 88px;
 	}
 	
-	@keyframes beweging {
-	  0%   {left: 150px; top: 0px;}
-	  25%  {left: -200px; top: 0px;}
-	  50%  {left: 150px; top: 0px;}
-	  75%  {left: -200px; top: 0px;}
-	  100% {left: 150px; top: 0px;}
+	.standaard-uren{
+		float: left;
+		clear: left;
+		margin-left: 50px;
 	}
 }
 
@@ -307,12 +320,36 @@ h2{
 /*Desktop css*/ 
 @media only screen and (min-width: 1440px){
 	h2{
-		font-size:50px;
+		font-size:40px;
+		padding-top: 50px;
+	}
+	
+	.spacelogo{
+		float:left;
+		clear:left;
+		margin-left:180px;
+		width: 340px;
+		border-top: 2px solid white;
+		margin-top: 35px;
 	}
 	
 	.logo-wit>img{
-		width:300px;
-		height: 50px;
+		margin-top: 155px;
+		margin-left: -30px;
+		width:340px;
+		height: 60px;
+	}
+	
+	.aarde-tijd{
+		float:right;
+		clear:right;
+		margin-right:180px;
+		margin-top:35px;
+		width: 570px;
+	}
+	
+	.aarde-tijd > h2{
+		margin-bottom:30px;
 	}
 	
 	.klokdata-wrapper{
@@ -333,11 +370,27 @@ h2{
 		font-size: 60px;
 	}
 	
+	.reis{
+		margin-right:170px;
+	}
 	
+	.planeten>figure{
+		margin-top:20px;
+	}
 	
+	.mars{
+		margin-right:50px;
+	}
 	
+	@keyframes beweging {
+	  0%   {left: 150px;}
+	  25%  {left: -180px;}
+	  50%  {left: 150px;}
+	  75%  {left: -180px;}
+	  100% {left: 150px;}
+	}
 	
-	
-	
-	
+	.standaard-uren{
+		margin-left: 180px;
+	}
 }
