@@ -12,7 +12,7 @@ Maar daarnaast had ik ook nog geprobeerd de raket heen en weer te laten bewegen 
 De kleuren van de achtergrond had ik gebaseerd op de kleuren van de lucht. 
 En voor de rest van de elementen op de schermen had juist vrolijke velle kleuren gebruikt voor meer duidelijkheid. 
 
-Voor de responsive design heb ik geprobeerd namate het venster groter word de elementen groter te maken en ook een aantal elementen naast elkaar te plaatsen. En had de schermgroottes gebasseerd op de afmetingen van google chrome > inspecteren. 
+Voor de responsive design heb ik geprobeerd naarmate het venster groter word de elementen groter te maken en ook een aantal elementen naast elkaar te plaatsen. Ik had de schermgroottes gebasseerd op de afmetingen van google chrome > inspecteren. 
 
 Ik had in mijn css bestand ook nog commentaar gezet, ookal was het overbodig, maar dan kan er terug gekeken worden naar waarom en wat ik had gedaan. Verder had ik het html bestand: clock.html verandert in index.html, maar merkte ik dat de css en js bestanden toen niet goed linkte met het index.html bestand.(ik had wat moeite met het uploaden van bestanden van de desktop github naar de website gitup). 
 Daarom heb ik de bestanden: clock.css en clock.js verandert in klok.css en klok.js en merkte ik dat dat wel werkte. Ik heb nog wel een aantal dingen verandert in de index.html, klok.css en klok.js bestanden.
