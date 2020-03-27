@@ -9,13 +9,14 @@ body{
 	animation: change 120s infinite;
 }
 
+/*ik heb de background-color verandert in js bestand
 @keyframes change{
 	0%{background-color: #09203A;}
 	25%{background-color: #47607E;}
 	50%{background-color: #5D82AE;}
 	75%{background-color: #78A3D6;}
 	100%{background-color: #80B0E8;}
-}
+}*/
 
 h2{
 	text-align:center; 
