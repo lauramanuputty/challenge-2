@@ -10,16 +10,20 @@ function startTijd(){
     document.getElementById("klok").innerHTML = uur + " : " + min + " : " + sec;
     var tijd = setTimeout(function(){ startTijd() }, 500);	
 		
-		if(uur >= 6 && uur < 13){
+		if(uur >= 6 && uur < 12){
 			document.body.style.backgroundColor = "#F5B070";
 		}
 			
-		else if (uur >= 18 && uur < 24){
-			document.body.style.backgroundColor = "#80B0E8";
+		else if (uur >= 12 && uur < 18){
+			document.body.style.backgroundColor= "#80B0E8";
+		}
+		
+		else if (uur >= 18 && uur < 24 ){
+			document.body.style.backgroundColor= "#5D82AE";
 		}
 				
 		else{
-			document.body.style.backgroundColor= "#09203A";
+			document.body.style.backgroundColor = "#09203A";
 		}
 };
 
