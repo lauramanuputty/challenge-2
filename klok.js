@@ -11,7 +11,7 @@ function startTijd(){
     var tijd = setTimeout(function(){ startTijd() }, 500);	
 		
 		if(uur >= 6 && uur < 12){
-			document.body.style.backgroundColor = "orange";
+			document.body.style.backgroundColor = "#c2d7f0";
 		}
 			
 		else if (uur >= 12 && uur < 18){
@@ -36,5 +36,5 @@ function checkTijd(i){
 
 window.onload = function(){
 	startTijd();
-}
+};
 
