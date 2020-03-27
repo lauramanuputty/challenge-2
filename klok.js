@@ -15,7 +15,7 @@ function startTijd(){
 		}
 			
 		else if (uur >= 12 && uur < 18){
-			document.body.style.backgroundColor= "#80B0E8";
+			document.body.style.backgroundColor= "#b3d0f2";
 		}
 		
 		else if (uur >= 18 && uur < 24 ){
