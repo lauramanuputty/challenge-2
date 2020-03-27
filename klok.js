@@ -21,7 +21,7 @@ function startTijd(){
 		else{
 			document.body.style.backgroundColor= "#09203A";
 		}
-}
+};
 
 function checkTijd(i){
 	if (i < 10) {
