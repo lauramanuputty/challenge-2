@@ -23,7 +23,6 @@ function startTijd(){
 		}
 }
 
-
 function checkTijd(i){
 	if (i < 10) {
 		i = "0" + i;
