@@ -8,6 +8,7 @@ function startTijd(){
     min = checkTijd(min);
     sec = checkTijd(sec);
     document.getElementById("klok").innerHTML = uur + " : " + min + " : " + sec;
+	
     var tijd = setTimeout(function(){ startTijd() }, 500);	
 		
 		if(uur >= 6 && uur < 13){
@@ -33,3 +34,18 @@ function startTijd(){
 	window.onload = function(){
 		startTijd();
 	}
+	
+    var tijd = setTimeout(function(){ startTijd() }, 500);
+}
+
+function checkTijd(i){
+	if (i < 10) {
+		i = "0" + i;
+	}
+	return i;
+}
+
+window.onload = function(){
+	startTijd();
+}
+
