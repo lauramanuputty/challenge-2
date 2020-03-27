@@ -11,11 +11,11 @@ function startTijd(){
     var tijd = setTimeout(function(){ startTijd() }, 500);	
 		
 		if(uur >= 6 && uur < 12){
-			document.body.style.backgroundColor = "#F5B070";
+			document.body.style.backgroundColor = "#b3d0f2";
 		}
 			
 		else if (uur >= 12 && uur < 18){
-			document.body.style.backgroundColor= "#b3d0f2";
+			document.body.style.backgroundColor= "#80B0E8";
 		}
 		
 		else if (uur >= 18 && uur < 24 ){
