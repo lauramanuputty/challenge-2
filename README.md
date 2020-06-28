@@ -18,3 +18,4 @@ Ik had in mijn css bestand ook nog commentaar gezet, ookal was het overbodig, ma
 Daarom heb ik de bestanden: clock.css en clock.js verandert in klok.css en klok.js en merkte ik dat dat wel werkte. Ik heb nog wel een aantal dingen verandert in de index.html, klok.css en klok.js bestanden.
 Uiteidelijk heb ik alle schermen kunnen maken met een werkende klok en een animatie. 
 
+Site: https://lauramanuputty.github.io/challenge-2/
