@@ -1,5 +1,7 @@
 #Mijn proces uitleg 
 
+Site: https://lauramanuputty.github.io/challenge-2/
+
 Omdat ik challenge 1 niet heb kunnen inleveren vanwege gebrek aan tijd, wilde ik wel proberen challenge 2 in te leveren.
 Ik weet van mezelf dat ik niet de beste ben in html, css en vooral javascript, dus heb ik goed gekeken naar wat ik kan en daar het beste uitgehaald bij het maken van de verschillende schermen. 
 
@@ -18,4 +20,3 @@ Ik had in mijn css bestand ook nog commentaar gezet, ookal was het overbodig, ma
 Daarom heb ik de bestanden: clock.css en clock.js verandert in klok.css en klok.js en merkte ik dat dat wel werkte. Ik heb nog wel een aantal dingen verandert in de index.html, klok.css en klok.js bestanden.
 Uiteidelijk heb ik alle schermen kunnen maken met een werkende klok en een animatie. 
 
-Site: https://lauramanuputty.github.io/challenge-2/
